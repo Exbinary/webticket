@@ -1,5 +1,7 @@
 # webticket
 
+###### [Instrucciones en Español  -  [README(es).md](https://github.com/Exbinary/webticket/blob/main/README(es).md)]
+
 This python tool is designed to check HTTP/HTTPS on ports 80, 8080 and 443 from a given IP/Hostname.
 
 Checking websites manually with curl, burp or browser can take some time or you may forget to check all ports.
