@@ -5,7 +5,7 @@ from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 
 
-def check_ports(host, ports=(80, 8080, 443), timeout=1.0):
+def check_ports(host, ports=(80, 8080, 443, 3000, 5000), timeout=1.0):
     results = {}
     for port in ports:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
